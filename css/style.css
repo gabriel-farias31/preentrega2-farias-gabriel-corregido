@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600;700&display=swap');
+
+body {
+    background:url(../img/fondo-lindo.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 2em;
+
+
+
+
+}
+
+nav {
+    display: flex;
+}
+
+.navegacion {
+    justify-content: space-between;
+    background-image: url(../img/fondo-mejor.jpg);
+    text-decoration: none;
+}
+
+.imagen-de-logo {
+    width: 50px;
+    margin-left: 100px;
+}
+
+.nombre-de-peluqueria {
+    font-family: 'Alkatra', cursive;
+    padding: 1px;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.lista li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 30px;
+    font-size: 10px;
+    padding-block: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: medium;
+
+}
+
+.lista-paginas:hover {
+    color: rgb(0, 0, 122);
+    text-decoration: underline;
+    background-color: rgb(115, 164, 221);
+
+}
+
+.nosotros {
+    line-height: 30px;
+    font-family: 'Alkatra', cursive;
+
+}
+
+.imagen-1-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto_1 {
+    width: 500px;
+    height: 300px;
+
+}
+
+.imagenes-2-y-3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.foto_2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 60%;
+}
+
+.foto_3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 60%;
+}
+
+.bienvenidos-p {
+    font-weight: 900;
+    margin-top: 90px;
+    margin-bottom: 190px;
+    background-color: rgb(84, 197, 201);
+    border-style: dashed;
+
+}
+
+.titulo-servicios {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+.titulo-para-servicios {
+    display: flex;
+    justify-content: center;
+}
+
+.estrella {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.lista-de-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.listas {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    border: solid;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    font-size: x-large;
+    background: rgb(183, 139, 224);
+}
+
+.titulo-lista {
+    text-decoration: underline
+}
+
+.foto-peluqueria {
+    width: 35rem;
+    height: 30rem;
+    margin: 30px;
+}
+
+.titulo-conocenos {
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nosotros-conocenos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.clase-nosotros {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+}
+
+.foto-del-personal {
+    width: 35rem;
+    height: 30rem;
+    margin: 30px;
+    margin-left: 25rem;
+}
+
+.imagen-peinados {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+}
+
+.logos-de-abajo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+
+}
+
+.atajos-a-contacto {
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+.turnos-grid {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logo-contacto {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.turnos {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    border-right: solid;
+}
+
+.numeros-de-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+
+}
+
+.footer-de-contacto {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.conteiner {
+    background-color: rgb(235, 168, 143);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.titulo-personal {
+    font-size: larger;
+    margin-left: 600px;
+}
+
+.productos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    grid-template-areas:
+        "logo-kerastase lista-de-productos lista-de-productos logo-vitrina"
+        "logo-loreal lista-de-productos lista-de-productos logo-vitrina";
+}
+
+.logo-kerastase-productos {
+    background-color: aqua;
+    grid-area: logo-kerastase;
+}
+
+.imagen-kerastase {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-loreal-productos {
+    background-color: brown;
+    grid-area: logo-loreal;
+}
+
+.imagen-loreal {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-vitrina-productos {
+    background-color: blueviolet;
+    grid-area: logo-vitrina;
+
+}
+
+.imagen-vitrina {
+    width: 100%;
+    height: 100%;
+}
+
+.lista-de-productos {
+    background-color: chartreuse;
+    grid-area: lista-de-productos;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:600px) and (min-width:450px) {
+    .productos-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            ". lista-de-productos lista-de-productos ."
+            ". logo-kerastase logo-kerastase ."
+            ". logo-loreal logo-loreal ."
+            ". logo-vitrina logo-vitrina .";
+    }
+}
+
+@media (max-width:450px) {
+    .productos-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            ". lista-de-productos lista-de-productos ."
+            ". logo-kerastase logo-kerastase ."
+            ". logo-loreal logo-loreal ."
+            ". logo-vitrina logo-vitrina .";
+    }
+}
+
+
+
+@media (max-width:600px) {
+    .turnos-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+.col-md-4 {
+margin-left: 450px;
+}
+
+.salon--1 {
+    width: 300px;
+    height: 300px;
+}
+
+
+.barra-de-nave {
+    display: flex;
+}
+
+.logo-nav {
+    width: 50px;
+    height: 50px;
+    margin-left: 60px;
+}
+
+.titulo-peluqueria-nav {
+    font-size:smaller;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration: underline;
+}
